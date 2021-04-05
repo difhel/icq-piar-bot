@@ -31,7 +31,9 @@
   >Привет!
   Теперь посмотрите на вкладку Network. Последняя запись должна иметь заголовок "sendIM".
 - Нажимаем на неё. Видимо что-то вроде этого:
-    <img src="https://github.com/nightadmin/icq-piar-bot/blob/master/screen1.png">
+
+    <img src="https://github.com/nightadmin/icq-piar-bot/blob/master/screen1.png" height="250px">
+    
 - Отлично. Листаем ниже:
     <img src="https://github.com/nightadmin/icq-piar-bot/blob/master/screen2.png">
 - Видим текст: "Привет!". Значит, все правильно. Копируем значение поля "aimsid".
@@ -41,7 +43,7 @@
 
 
 # Запуск и развертывание
-Вы должны запустить бота на виртуальном или физическом выделенном сервере. Он стоит денег (или читайте мою статью о [сервере из старого телефона](http://icq.a0001.net/server_based_by_old_phone)).
+Вы должны запустить бота на виртуальном или физическом выделенном сервере. Он стоит денег (или читайте мою статью о [сервере из старого телефона](http://icq.a0001.net/server_based_on_old_phone)).
 На нем перейдите в консоль и выполните команды:
 ```bash
 mkdir piar

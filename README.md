@@ -32,7 +32,7 @@
   Теперь посмотрите на вкладку Network. Последняя запись должна иметь заголовок "sendIM".
 - Нажимаем на неё. Видимо что-то вроде этого:
 
-    <img src="https://github.com/nightadmin/icq-piar-bot/blob/master/screen1.png" height="250px">
+    <img src="https://raw.githubusercontent.com/nightadmin/icq-piar-bot/master/screen1.png" height="250px">
     
 - Отлично. Листаем ниже:
     <img src="https://github.com/nightadmin/icq-piar-bot/blob/master/screen2.png">

@@ -9,7 +9,7 @@ async def main():
     async with aiohttp.ClientSession() as session:
         for i in chats:
             for j in replics:
-                API_URL = "https://u.icq.net/api/v51/wim/im/sendIM?aimsid={token}&t={chatId}&message={text}&mentions=&f=json".format(token=USER_AIMSID, chatId=i, text=j)
+                API_URL = "https://u.icq.net/api/v53/wim/im/sendIM?aimsid={token}&t={chatId}&message={text}&mentions=&f=json".format(token=choice(USER_AIMSID), chatId=i, text=j)
                 async with session.get(API_URL) as response:
                 print("Отправка сообщения {1} в чат {2}".format(1=j, 2=i))
                 print("Статус:", response.status)
